@@ -1,3 +1,1 @@
-print("qualquer coisa")
-
-print("nova versão")
+a = 5
