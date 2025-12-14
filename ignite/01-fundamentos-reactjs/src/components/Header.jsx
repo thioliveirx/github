@@ -6,7 +6,7 @@ console.log(igniteLogo);
 export function Hearder() {
     return(
         <hearder className={styles.header}>
-        <img src={neuLogo} alt="Logotipo do NEU" />
+        <img src={neuLogo} alt="Logotipo" />
         
         </hearder>
     )
