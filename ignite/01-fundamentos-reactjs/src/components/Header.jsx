@@ -1,13 +1,12 @@
 import styles from './Header.module.css'
-
-import igniteLogo from '../assets/ignite-logo.svg';
+import neuLogo from '../assets/neu-logo.svg';
 
 console.log(igniteLogo);
 
 export function Hearder() {
     return(
         <hearder className={styles.header}>
-        <img src={igniteLogo} alt="Logotipo do ignite"/>
+        <img src={neuLogo} alt="Logotipo do NEU" />
         
         </hearder>
     )

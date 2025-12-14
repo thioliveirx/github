@@ -1,4 +1,4 @@
-//import { PencilSimpleIcon } from '@phosphor-icons/react' 
+import { BrainIcon } from '@phosphor-icons/react';
 
 import styles from './Sidebar.module.css';
 
@@ -14,7 +14,7 @@ export function Sidebar() {
                 <img className={styles.avatar} src="https://avatars.githubusercontent.com/u/72468513?v=4" alt="" />
 
                 <strong>Thiago Oliveira</strong>
-                <span>Web Developer</span>
+                <span>Economia @ USP</span>
             </div>
 
             <footer>
