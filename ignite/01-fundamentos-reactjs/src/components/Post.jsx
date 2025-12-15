@@ -22,19 +22,18 @@ export function Post() {
                     <a href="">#fodaseoelab</a>{' '}
                     <a href="">#mariimpeachment</a>{' '}
                     <a href="">#z2olab</a>{' '}
-               
             </div>
 
-        <form className={styles.commentForm}>
-            <strong>Deixe seu feedback</strong>
+            <form className={styles.commentForm}>
+                <strong>Deixe seu feedback</strong>
 
-            <textarea 
-                placeholder="Deixe um comentário"
-            />
-            <footer>
-                <button type="submit">Publicar</button>
-            </footer>
-        </form>
+                <textarea 
+                    placeholder="Deixe um comentário"
+                />
+                <footer>
+                    <button type="submit">Publicar</button>
+                </footer>
+            </form>
         </article>
     )
 }

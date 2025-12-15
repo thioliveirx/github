@@ -1,13 +1,10 @@
 import styles from './Header.module.css'
 import neuLogo from '../assets/neu-logo.svg';
 
-console.log(igniteLogo);
-
-export function Hearder() {
+export function Header() {
     return(
-        <hearder className={styles.header}>
-        <img src={neuLogo} alt="Logotipo" />
-        
-        </hearder>
+        <header className={styles.header}>
+            <img src={neuLogo} alt="Logotipo" />
+        </header>
     )
 }
