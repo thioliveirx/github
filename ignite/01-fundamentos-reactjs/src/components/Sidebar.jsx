@@ -1,6 +1,7 @@
-import { BrainIcon } from '@phosphor-icons/react';
+import { Brain } from '@phosphor-icons/react';
 
 import styles from './Sidebar.module.css';
+import { Avatar } from './avatar';
 
 export function Sidebar() {
     return (
@@ -11,7 +12,7 @@ export function Sidebar() {
             />
 
             <div className={styles.profile}>
-                <img className={styles.avatar} src="https://avatars.githubusercontent.com/u/72468513?v=4" alt="" />
+                <Avatar src="http://github.com/thioliveirx.png" />
 
                 <strong>Thiago Oliveira</strong>
                 <span>Economia @ USP</span>
